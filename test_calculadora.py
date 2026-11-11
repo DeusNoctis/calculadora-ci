@@ -27,3 +27,9 @@ def test_dividir():
 def test_dividir_entre_cero():
     with pytest.raises(ValueError):
         dividir(1, 0)
+
+
+
+
+def test_potencia():
+    assert potencia(2, 3) == 8
