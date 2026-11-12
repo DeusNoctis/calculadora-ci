@@ -1,6 +1,3 @@
-"""Calculadora sencilla para la práctica de Jenkins."""
-
-
 def sumar(a, b):
     return a + b
 
